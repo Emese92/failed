@@ -5,7 +5,7 @@ from cloudinary.models import CloudinaryField
 import datetime as dt
 
 
-class Book(models.Model):
+class Booking(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     booked_date = models.DateField()
     booked_time = models.TimeField(default=dt.time(00, 00))
