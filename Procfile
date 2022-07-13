@@ -1,1 +1,1 @@
-web: gunicorn earlibirdie.wsgi
+web: gunicorn earlybirdie.wsgi

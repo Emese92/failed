@@ -32,8 +32,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['the-early-birdie.herokuapp.com', 'localhost']
 
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'cloudinary_storage',
     'django.contrib.staticfiles',
-    'cloudinary'
+    'cloudinary',
     'booking',
 ]
 
